@@ -1,0 +1,11 @@
+ :active.border-b-2 {
+    border-bottom-width: 6px;
+    color: #173f63;
+    border-color: black; 
+}
+.font-medium {
+    
+    font-weight: 700;
+
+}
+
