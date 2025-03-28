@@ -1,7 +1,7 @@
 import { useState } from "react";
 import our from "../images/our.png";
 import hightbg from "../images/hightbg.png";
-import highmid from "../images/highmid.png";
+// import highmid from "../images/highmid.png";  // If the image is in `src/images/`
 import down from "../images/down.png";
 import phone from "../images/phone.png";
 import whatsup from "../images/whatsup.png";
@@ -13,6 +13,7 @@ import roundlogo from "../images/roundlogo.png";
 import { Modal } from "flowbite-react";
 import theppt from "../images/theppt.webp";
 import sals from "../images/sals.webp";
+import highMid from "../images/highMid.png"
 const tabs = [
   {
     id: "3BHK",
@@ -108,7 +109,9 @@ const OurTabing2 = () => {
                   </h3>
                   {/* Image */}
                   <div className="bg-white h-[100px] w-[389px] mt-5">
-                    <img src={highmid} alt="HighMid" className="px-[33.76px] py-[13px]" />
+           
+                    <img src={highMid} alt="highMid Image" className="px-[33.76px] py-[13px]" />
+
                   </div>
                   {/* Icons */}
                   <div className="p-4 flex items-center justify-around">
